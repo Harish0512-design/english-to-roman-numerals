@@ -59,3 +59,12 @@ button:hover {
     margin-top: 2rem;
     color: var(--button-hover-color);
 }
+
+#output-display {
+    font-weight: bolder;
+}
+
+#output-error {
+    color: crimson;
+    font-weight: bold;
+}

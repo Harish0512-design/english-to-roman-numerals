@@ -2,6 +2,7 @@
 const inputRef = document.querySelector("#numeric-value");
 const buttonRef = document.querySelector("#btn-translate");
 const outputRef = document.querySelector("#output-display");
+const outputErrRef = document.querySelector("#output-error");
 
 // Request URL
 const reqURL = "https://api.funtranslations.com/translate/roman-numerals.json"
@@ -14,7 +15,7 @@ function translateURL(input) {
 // handle error
 function handlerServerError(err){
     console.log(err);
-    outputRef.innerText = "Something wrong with server. Please try again 🙂"
+    outputErrRef.innerText = "Something wrong with server. Please try again 🙂"
 }
 
 // function to handle request , process and gives response

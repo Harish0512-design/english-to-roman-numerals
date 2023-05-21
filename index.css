@@ -35,16 +35,16 @@ main {
 
 input, #output-display {
     height: 8vh;
-    width: 60vh;
+    width: 60vw;
     font-size: 2rem;
 }
 
 button {
     height: 8vh;
-    width: 40vh;
+    width: 40vw;
     font-size: 1.2rem;
     font-weight: bold;
-    padding: 8px;
+    padding: 3rem;
     background-color: var(--primary-color);
     color: var(--primary-text-color);
     cursor: pointer;
